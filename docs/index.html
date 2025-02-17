@@ -61,11 +61,21 @@
             font-family: monospace;
             overflow-x: auto;
         }
+        .supplementary {
+            background: #f8f8f8;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 20px;
+            text-align: center;
+        }
         footer {
             margin-top: 20px;
             font-size: 0.9em;
             color: #777;
             text-align: center;
+        }
+        .center-text {
+        text-align: center;
         }
     </style>
 </head>
@@ -73,8 +83,13 @@
     <div class="container">
         <h1>Interpretable Concept-based Deep Learning Framework</h1>
         <h1>for Multimodal Human Behavior Modeling</h1>
-        <p><strong>Authors:</strong> Xinyu Li & Marwa Mahmoud</p>
-        <p><strong>University of Glasgow</strong></p>
+        <p class="center-text"><strong>Xinyu Li and Marwa Mahmoud</strong></p>
+        <p class="center-text">School of Computing Science, University of Glasgow, UK</p>
+
+        <h2>🎥 Video Demo</h2>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/uB-AWsAG6xY" frameborder="0" allowfullscreen></iframe>
+        </div>
 
         <h2>📄 Abstract</h2>
         <div class="abstract">
@@ -93,23 +108,23 @@
                 AGCM is extendable to any spatial and temporal signals through multimodal concept alignment and co-learning, empowering stakeholders with deeper insights into the model's decision-making process.
             </p>
             <p>
-                We validate the efficiency of AGCM on well-established Facial Expression Recognition benchmark datasets while also demonstrating its generalizability on more complex real-world human behavior understanding applications.
+                We validate the SOTA <strong>performance</strong> and human-interpretable <strong>explainability</strong> of AGCM on well-established Facial Expression Recognition benchmark datasets while also demonstrating its generalizability on more complex real-world human behavior understanding applications.
             </p>
         </div>
 
         <h2>📄 Research Paper</h2>
         <p><a href="https://arxiv.org/abs/2502.10145" target="_blank">Read on arXiv</a></p>
 
-        <h2>🎥 Video Demo</h2>
-        <div class="video-container">
-            <iframe src="https://www.youtube.com/embed/uB-AWsAG6xY" frameborder="0" allowfullscreen></iframe>
+        <h2>📄 Supplementary File</h2>
+        <div class="supplementary">
+            <p><a href="supplementary.pdf" target="_blank">📂 Read the supplementary PDF for extra discussion</a></p>
         </div>
 
         <h2>💻 Code</h2>
-        <p>To run the code, use the following commands:</p>
+        <p>To run the code, use the following commands or access our <a href="https://github.com/xinyuli-uofg/agcm" target="_blank">GitHub repository</a>:</p>
         <div class="code-section">
             <pre>
-git clone https://github.com/xinyuli-uofg/agcm
+        git clone https://github.com/xinyuli-uofg/agcm
             </pre>
         </div>
 
