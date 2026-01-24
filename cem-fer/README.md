@@ -18,16 +18,6 @@ https://xinyuli-uofg.github.io/agcm/
 
 ---
 
-## 📁 Repository Overview
-
-This repository provides:
-- Source code for the proposed concept-based modeling approach
-- Experimental pipelines used in the paper
-- Supporting scripts and configuration files
-
-*(Detailed usage instructions will be added as the codebase evolves.)*
-
----
 
 ## 📄 Citation
 

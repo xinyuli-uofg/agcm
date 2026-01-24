@@ -11,6 +11,14 @@ Users can upload a facial image, and the system returns:
 
 ---
 
+## 🔗 Project Website
+
+For detailed methodology, experiments, visualizations, and supplementary material, please visit the **project page**:
+
+https://xinyuli-uofg.github.io/agcm/
+
+---
+
 ## 1. Environment Setup
 
 ### 1.1 Prerequisites
@@ -18,7 +26,6 @@ Users can upload a facial image, and the system returns:
 - Conda
 - Python ≥ 3.9
 - NVIDIA GPU + CUDA for faster inference
-- Our pretrained model: https://gla-my.sharepoint.com/:f:/g/personal/2637150l_student_gla_ac_uk/IgDvJhtowUUdTIB_iZehWgwgAQGVqGHp1UO7g_395_HaIVQ?e=DzbKh7
 
 ### 1.2 Create Conda Environment
 
